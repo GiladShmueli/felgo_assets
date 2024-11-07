@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qml/assets/ScDial.qml">C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScDial.qml</file>
+    <file alias="qml/assets/ScFortuneWheel.qml">C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScFortuneWheel.qml</file>
+    <file alias="qml/assets/ScDice.qml">C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScDice.qml</file>
+    <file alias="qml/assets/ScMorse.qml">C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScMorse.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,8 @@
+module FelgoAssets
+typeinfo appFelgoAssets.qmltypes
+prefer :/
+ScDial 1.0 qml/assets/ScDial.qml
+ScFortuneWheel 1.0 qml/assets/ScFortuneWheel.qml
+ScDice 1.0 qml/assets/ScDice.qml
+ScMorse 1.0 qml/assets/ScMorse.qml
+

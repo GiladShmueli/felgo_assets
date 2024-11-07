@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FelgoAssets">
+    <file alias="qmldir">C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/FelgoAssets/qmldir</file>
+  </qresource>
+</RCC>
+

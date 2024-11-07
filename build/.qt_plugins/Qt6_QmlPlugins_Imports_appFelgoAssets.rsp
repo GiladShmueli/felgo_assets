@@ -1,0 +1,15 @@
+-rootPath
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets
+-cmake-output
+-output-file
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/.qt_plugins/Qt6_QmlPlugins_Imports_appFelgoAssets.cmake
+-importPath
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/FelgoAssets
+-importPath
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build
+-importPath
+C:/Felgo/Felgo/mingw_64/./qml
+-qrcFiles
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/.rcc/qmake_FelgoAssets.qrc
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/.rcc/qmake_FelgoAssets_copy.qrc
+C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/.rcc/appFelgoAssets_raw_qml_0.qrc
