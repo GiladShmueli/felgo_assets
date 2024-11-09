@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Users/gilad/OneDrive/Projects/FelgoAssets/build/
 #############################################
 # Order-only phony target for appFelgoAssets
 
-build cmake_object_order_depends_target_appFelgoAssets: phony || .rcc/qmlcache/appFelgoAssets_qml/assets/ScDial_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScDice_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScFortuneWheel_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScMorse_qml.cpp .rcc/qmlcache/appFelgoAssets_qmlcache_loader.cpp .rcc/qrc_appFelgoAssets_raw_qml_0.cpp .rcc/qrc_qmake_FelgoAssets.cpp .rcc/qrc_qmake_FelgoAssets_copy.cpp FelgoAssets/appFelgoAssets.qmltypes appFelgoAssets_autogen appFelgoAssets_autogen/mocs_compilation.cpp appFelgoAssets_autogen/timestamp appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling appfelgoassets_qmltyperegistrations.cpp assets/felgo-logo.png cmake_object_order_depends_target_Felgo_resources_1 meta_types/appFelgoAssets_json_file_list.txt meta_types/appFelgoAssets_json_file_list.txt.timestamp meta_types/qt6appfelgoassets_debug_metatypes.json meta_types/qt6appfelgoassets_debug_metatypes.json.gen qml/Main.qml qml/assets/ScDial.qml qml/assets/ScDice.qml qml/assets/ScFortuneWheel.qml qml/assets/ScMorse.qml qml/config.json
+build cmake_object_order_depends_target_appFelgoAssets: phony || .rcc/qmlcache/appFelgoAssets_qml/assets/ScDial_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScDice_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScFortuneWheel_qml.cpp .rcc/qmlcache/appFelgoAssets_qml/assets/ScMorse_qml.cpp .rcc/qmlcache/appFelgoAssets_qmlcache_loader.cpp .rcc/qrc_appFelgoAssets_raw_qml_0.cpp .rcc/qrc_qmake_FelgoAssets.cpp .rcc/qrc_qmake_FelgoAssets_copy.cpp FelgoAssets/appFelgoAssets.qmltypes appFelgoAssets_autogen appFelgoAssets_autogen/mocs_compilation.cpp appFelgoAssets_autogen/timestamp appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling appfelgoassets_qmltyperegistrations.cpp assets/dice_1.png assets/dice_2.png assets/dice_3.png assets/dice_4.png assets/dice_5.png assets/dice_6.png assets/felgo-logo.png cmake_object_order_depends_target_Felgo_resources_1 meta_types/appFelgoAssets_json_file_list.txt meta_types/appFelgoAssets_json_file_list.txt.timestamp meta_types/qt6appfelgoassets_debug_metatypes.json meta_types/qt6appfelgoassets_debug_metatypes.json.gen qml/Main.qml qml/assets/ScDial.qml qml/assets/ScDice.qml qml/assets/ScDice.qml.autosave qml/assets/ScFortuneWheel.qml qml/assets/ScMorse.qml qml/config.json
 
 build CMakeFiles/appFelgoAssets.dir/appFelgoAssets_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appFelgoAssets_unscanned_Debug C$:/Users/gilad/OneDrive/Projects/FelgoAssets/build/appFelgoAssets_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appFelgoAssets
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_BLUETOOTH_LIB -DQT_CORE5COMPAT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_SQL_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -392,11 +392,74 @@ build qml/assets/ScMorse.qml | ${cmake_ninja_workdir}qml/assets/ScMorse.qml: CUS
 
 
 #############################################
+# Custom command for assets\dice_1.png
+
+build assets/dice_1.png | ${cmake_ninja_workdir}assets/dice_1.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_1.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_1.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for assets\dice_2.png
+
+build assets/dice_2.png | ${cmake_ninja_workdir}assets/dice_2.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_2.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_2.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for assets\dice_3.png
+
+build assets/dice_3.png | ${cmake_ninja_workdir}assets/dice_3.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_3.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_3.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for assets\dice_4.png
+
+build assets/dice_4.png | ${cmake_ninja_workdir}assets/dice_4.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_4.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_4.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for assets\dice_5.png
+
+build assets/dice_5.png | ${cmake_ninja_workdir}assets/dice_5.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_5.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_5.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_5.png
+  restat = 1
+
+
+#############################################
+# Custom command for assets\dice_6.png
+
+build assets/dice_6.png | ${cmake_ninja_workdir}assets/dice_6.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_6.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/dice_6.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
+  DESC = Generating assets/dice_6.png
+  restat = 1
+
+
+#############################################
 # Custom command for assets\felgo-logo.png
 
 build assets/felgo-logo.png | ${cmake_ninja_workdir}assets/felgo-logo.png: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/felgo-logo.png || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/felgo-logo.png C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/assets/"
   DESC = Generating assets/felgo-logo.png
+  restat = 1
+
+
+#############################################
+# Custom command for qml\assets\ScDice.qml.autosave
+
+build qml/assets/ScDice.qml.autosave | ${cmake_ninja_workdir}qml/assets/ScDice.qml.autosave: CUSTOM_COMMAND C$:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScDice.qml.autosave || Felgo_resources_1 Felgo_resources_1_autogen Felgo_resources_1_autogen_timestamp_deps appFelgoAssets_autogen appFelgoAssets_autogen_timestamp_deps appFelgoAssets_qmlimportscan appFelgoAssets_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\gilad\OneDrive\Projects\FelgoAssets\build && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/qml/assets/ && C:\Felgo\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScDice.qml.autosave C:/Users/gilad/OneDrive/Projects/FelgoAssets/build/qml/assets/"
+  DESC = Generating qml/assets/ScDice.qml.autosave
   restat = 1
 
 
