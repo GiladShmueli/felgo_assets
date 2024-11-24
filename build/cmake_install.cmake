@@ -108,7 +108,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/qml/assets" TYPE FILE FILES "C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/qml/assets/ScDice.qml.autosave")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/assets/sounds" TYPE FILE FILES "C:/Users/gilad/OneDrive/Projects/FelgoAssets/FelgoAssets/assets/sounds/bleep.mp3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
